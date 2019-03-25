@@ -13,3 +13,4 @@ function onClick(event) {
 
 main.addEventListener('click', onClick)
 
+document.addEventListener('keydown', onKeyDown)
