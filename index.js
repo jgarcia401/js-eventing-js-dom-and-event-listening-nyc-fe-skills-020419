@@ -54,7 +54,7 @@ button.addEventListener('click', () => {
   
   newP.innerHTML = 'Congratulations!'
   
-  appendChild(newP)
+  document.body.appendChild(newP)
   
 })
 
