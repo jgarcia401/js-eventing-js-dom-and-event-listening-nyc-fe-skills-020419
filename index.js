@@ -30,10 +30,6 @@ function onInputKeyDown(event) {
     event.preventDefault()
     
   }
-  
-  else {
-    
-  }
 }
 
 inputBox.addEventListener('keydown', onInputKeyDown)
