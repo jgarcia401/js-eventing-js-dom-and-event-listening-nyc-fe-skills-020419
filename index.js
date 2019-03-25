@@ -36,6 +36,7 @@ inputBox.addEventListener('keydown', onInputKeyDown)
 
 const p = document.getElementById('yellow')
 
+//anonymous arrow functions
 
 p.addEventListener('click', (event) => {
   
@@ -45,5 +46,15 @@ p.addEventListener('click', (event) => {
   
 })
 
-//anonymous arrow functions
+const button = document.getElementById('plus')
+
+button.addEventListener('click', () => {
+  
+  const newP = document.createElement('p')
+  
+  newP.innerHTML = 'Congratulations!'
+  
+  appendChild(newP)
+  
+})
 
