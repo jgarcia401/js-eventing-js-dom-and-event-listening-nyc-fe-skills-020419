@@ -7,7 +7,7 @@ const main = document.getElementById('main')
 // 1. is the even that we care about
 // 2. is the function that is supposed to run when the event happens
 
-function onClick() {
+function onClick(event) {
   console.log('hey the click happened')
 }
 
