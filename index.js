@@ -43,7 +43,7 @@ p.addEventListener('click', (event) => {
   
   p.style.backgroundColor = 'yellow'
   
-} )
+})
 
 //anonymous arrow functions
 
