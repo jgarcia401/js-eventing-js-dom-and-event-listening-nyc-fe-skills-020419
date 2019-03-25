@@ -67,8 +67,12 @@ for(let div of divs) {
   div.addEventListener('click', (event) => {
     
     console.log(event)
+    
+    event.stopPropagation() //stops event bubbling
   })
 }
+
+// event bubbling
 
 
 
