@@ -11,6 +11,10 @@ function onClick(event) {
   console.log(event)
 }
 
+function onKeyDown(event) {
+  console.log(event)
+}
+
 main.addEventListener('click', onClick)
 
 document.addEventListener('keydown', onKeyDown)
