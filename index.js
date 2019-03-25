@@ -25,6 +25,20 @@ function onInputKeyDown(event) {
   
   console.log(event)
   
+  if(event.keyCode === 71) {
+    
+    event.preventDefault()
+    
+  }
+  
+  else {
+    
+  }
 }
 
 inputBox.addEventListener('keydown', onInputKeyDown)
+
+
+
+
+
