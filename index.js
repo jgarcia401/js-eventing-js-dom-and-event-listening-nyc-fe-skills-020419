@@ -12,7 +12,7 @@ function onClick(event) {
 }
 
 function onKeyDown(event) {
-  console.log(event)
+  console.log(event.keyCode)
 }
 
 main.addEventListener('click', onClick)
